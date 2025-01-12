@@ -1,0 +1,560 @@
+[
+  {
+    "StreetName": [ "1. Maija iela" ],
+	  "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/maija.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54280%2C27.71850%3B56.54530%2C27.72520#map=17/56.54404/27.72197&layers=P",
+    "Details": "Ielas sākums no veikala \"ŪDENS AKADĒMIJA\" līdz ezeram",
+    "Latitude": "56.5453",
+    "Longitude": "27.7252"
+  },
+  {
+    "StreetName": [ "18. Novembra iela" ],
+	  "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/novembra.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54285%2C27.71850%3B56.54200%2C27.71348#map=18/56.54300/27.71625&layers=P",
+    "Details": "Ielas sākums no Parku ielas pie veikala \"MAXIMA\"(lielā) līdz pilsētas baseinam",
+    "Latitude": "56.542",
+    "Longitude": "27.71348"
+  },
+  {
+    "StreetName": [ "Andreja Upīša iela", "A. Upīša iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/upisa.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54586%2C27.71619",
+    "Details": "Pie azartspēļu zāles \"Džokers\"",
+    "Latitude": "56.54586",
+    "Longitude": "27.71619"
+  },
+  {
+    "StreetName": [ "Atpūtas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/atputas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5288%2C27.6950#map=14/56.5377/27.7070&layers=P",
+    "Details": "RUNTORTA",
+    "Latitude": "56.5288",
+    "Longitude": "27.695"
+  },
+  {
+    "StreetName": [ "Baznīcas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/baznicas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5472%2C27.7175",
+    "Details": "Ielas sākums no Skolas ielas līdz Romas katoļu baznīcai",
+    "Latitude": "56.5472",
+    "Longitude": "27.7175"
+  },
+  {
+    "StreetName": [ "Biržas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/birzas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54280%2C27.71850%3B56.53940%2C27.71190",
+    "Details": "Ielas sākums no Latgales ielas līdz garažiem \"Kosmoss/Žiguļi\"",
+    "Latitude": "56.5394",
+    "Longitude": "27.7119"
+  },
+  {
+    "StreetName": [ "Blaumaņa iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/blaumana.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54167%2C27.71888#map=18/56.54226/27.71893&layers=P",
+    "Details": "Ielas sākums no Stacijas ielas(pie pilsētas parka) līdz Dagdas ielai",
+    "Latitude": "56.54167",
+    "Longitude": "27.71888"
+  },
+  {
+    "StreetName": [ "Ceriņu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/cerinu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.52578%2C27.68922#map=14/56.5358/27.7037&layers=P",
+    "Details": "RUNTORTA (Dačas)",
+    "Latitude": "56.52578",
+    "Longitude": "27.68922"
+  },
+  {
+    "StreetName": [ "Cigoriņu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/cigorinu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54288%2C27.71840%3B56.52529%2C27.68829#map=14/56.5358/27.7037&layers=P",
+    "Details": "RUNTORTA (Dačas)",
+    "Latitude": "56.52529",
+    "Longitude": "27.68829"
+  },
+  {
+    "StreetName": [ "Dagdas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/dagdas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5381%2C27.7048",
+    "Details": "Ielas sākums no Parku ielas līdz \"DR/Ludzas Maiznīca\"",
+    "Latitude": "56.5381",
+    "Longitude": "27.7048"
+  },
+  {
+    "StreetName": [ "Dzirnavu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/dzirnavu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5428%2C27.7184%3B56.5367%2C27.7322#map=16/56.5406/27.7255&layers=P",
+    "Details": "Ielas sākums no Latgales ielas līdz Sporta ielai. Ceļs dalās. Virziens MARTIŠI pirms dzelzceļa pārbrauktuves",
+    "Latitude": "56.5367",
+    "Longitude": "27.7322"
+  },
+  {
+    "StreetName": [ "Dunakļu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/dunaklu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54282%2C27.71847%3B56.55692%2C27.72499#map=15/56.5499/27.7229&layers=P",
+    "Details": "Virziens KĀRSAVA. Krustojas ar Tālavijas ielu",
+    "Latitude": "56.55692",
+    "Longitude": "27.72499"
+  },
+  {
+    "StreetName": [ "Dzelzceļa iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/dzelzcela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5340%2C27.7356#map=15/56.5393/27.7272&layers=P",
+    "Details": "Virziens MARTIŠI. Uzreiz pa labi aiz dzelzceļa pārbrauktuves",
+    "Latitude": "56.534",
+    "Longitude": "27.7356"
+  },
+  {
+    "StreetName": [ "Gaismas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/gaismas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5283%2C27.6938",
+    "Details": "RUNTORTA (Dačas)",
+    "Latitude": "56.5283",
+    "Longitude": "27.6938"
+  },
+  {
+    "StreetName": [ "Jauna iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/jauna.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5216%2C27.7361#map=14/56.5331/27.7279&layers=P",
+    "Details": "MARTIŠOS",
+    "Latitude": "56.5216",
+    "Longitude": "27.7361"
+  },
+  {
+    "StreetName": [ "Jelgavas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/jelgavas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5427%2C27.7185%3B56.5370%2C27.7194",
+    "Details": "Veikals \"SANTA-BARBARA\". Ielas sākums no Latgales ielas līdz Dagdas ielai",
+    "Latitude": "56.537",
+    "Longitude": "27.7194"
+  },
+  {
+    "StreetName": [ "Andriva Jurdža iela", "A. Jurdža iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/jurdza.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5466%2C27.7342",
+    "Details": "Ceļš aiziet divos virzienos uz Kr. Barona un A. Jurdža ielas krustojuma",
+    "Latitude": "56.5466",
+    "Longitude": "27.7342"
+  },
+  {
+    "StreetName": [ "Kārsavas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/karsavas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_bike&route=56.54275%2C27.71851%3B56.55102%2C27.72194#map=15/56.5470/27.7232&layers=P",
+    "Details": "Netālu pie ĒRIKA MICKĀNA mājas. Jābrauc kalnā. Ielas sākums no Soikana ielas līdz Miera ielai",
+    "Latitude": "56.55102",
+    "Longitude": "27.72194"
+  },
+  {
+    "StreetName": [ "Freimaņa Kempa iela", "Fr. Kempa iela", "Kempa iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/kempa.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.53922%2C27.71588",
+    "Details": "Pie pilsētas baseina",
+    "Latitude": "56.53922",
+    "Longitude": "27.71588"
+  },
+  {
+    "StreetName": [ "Klusa iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/klusa.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5493%2C27.6969#map=15/56.5453/27.7080&layers=P",
+    "Details": "Uzreiz aiz \"Govju tilta\".",
+    "Latitude": "56.5493",
+    "Longitude": "27.6969"
+  },
+  {
+    "StreetName": [ "Krasta iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/krasta.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5259%2C27.6905",
+    "Details": "RUNTORTA (Dačas)",
+    "Latitude": "56.5259",
+    "Longitude": "27.6905"
+  },
+  {
+    "StreetName": [ "Krišjāņa Barona iela", "Kr. Barona iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/krisjana.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54605%2C27.71810#map=17/56.54446/27.71850&layers=P",
+    "Details": "Ielas sākums no Skolas ielas līdz kapiem",
+    "Latitude": "56.54605",
+    "Longitude": "27.7181"
+  },
+  {
+    "StreetName": [ "Krāslavas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/kraslavas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5374%2C27.6982#map=15/56.5420/27.7085&layers=P",
+    "Details": "Virziens RUNTORTA. Ielas sākums no apļa līdz RUNTORTA(Dačām), iet tālāk aiz kalna uz Stoļerovas pusi. Iela beidzās pie ceļa zīmes LUDZA)",
+    "Latitude": "56.5374",
+    "Longitude": "27.6982"
+  },
+  {
+    "StreetName": [ "Kuļņeva iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/kulneva.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5428%2C27.7185%3B56.5508%2C27.7274#map=16/56.5468/27.7227&layers=P",
+    "Details": "ĒRIKA MICKĀNA iela. Ielas sākums no Tālavijas ielas līdz Klusa ielai.",
+    "Latitude": "56.5508",
+    "Longitude": "27.7274"
+  },
+  {
+    "StreetName": [ "Latgales iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/latgales.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54290%2C27.71850%3B56.54653%2C27.71779#map=17/56.54472/27.71841&layers=P",
+    "Details": "Ielas sākums no RĒZEKNES puses pie tilta līdz MARTIŠIEM.(UZMANĪGI!) Latgales ielai daudz izējceļu",
+    "Latitude": "56.54653",
+    "Longitude": "27.71779"
+  },
+  {
+    "StreetName": [ "Liepājas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/liepajas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.53848%2C27.70998#map=16/56.5407/27.7145&layers=P",
+    "Details": "Picērija \"ASTOTAJS RAJONS\"Ielas sākums no \"Govju tilta\" līdz Jelgavas ielai.",
+    "Latitude": "56.53848",
+    "Longitude": "27.70998"
+  },
+  {
+    "StreetName": [ "Līča iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/lica.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54615%2C27.70915",
+    "Details": "Ceļš dalās. Netālu aiz Parku ielas pie veikala \"MAXIMA\"(lielā).",
+    "Latitude": "56.54615",
+    "Longitude": "27.70915"
+  },
+  {
+    "StreetName": [ "Ludzas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/ludzas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5253%2C27.7365#map=14/56.5349/27.7279&layers=P",
+    "Details": "MARTIŠOS. Aiz ceļa zīmes LUDZA",
+    "Latitude": "56.5253",
+    "Longitude": "27.7365"
+  },
+  {
+    "StreetName": [ "Miera iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/miera.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_bike&route=56.5429%2C27.7185%3B56.5513%2C27.7264",
+    "Details": "Netālu no ĒRIKA MICKĀNA mājas. No Tālavijas ielas aiz tilta pa kreisi un pirmais pagrieziens pa labi(kalnā).",
+    "Latitude": "56.5513",
+    "Longitude": "27.7264"
+  },
+  {
+    "StreetName": [ "Niedru iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/niedru.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5567%2C27.7219",
+    "Details": "Virziens KĀRSAVA. No Tālavijas ielas pa kreisi(aiz Dunakļu ielas).",
+    "Latitude": "56.5567",
+    "Longitude": "27.7219"
+  },
+  {
+    "StreetName": [ "Ozolu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/ozolu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.52575%2C27.69072#map=14/56.5362/27.7048&layers=P",
+    "Details": "RUNTORTA(Dačas apkaime)",
+    "Latitude": "56.52575",
+    "Longitude": "27.69072"
+  },
+  {
+    "StreetName": [ "Liepu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/liepu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.52541%2C27.73644#map=14/56.5350/27.7279&layers=P",
+    "Details": "MARTIŠOS. Ielas sākums no ogles ražotnes pāri Latgales ielai. Ceļš aiziet divos virzienos uz Latgales un Liepu ielas krustojuma.",
+    "Latitude": "56.52541",
+    "Longitude": "27.73644"
+  },
+  {
+    "StreetName": [ "P. Miglinīka iela", "P. Miglinieka iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/miglinika.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5428%2C27.7185%3B56.5395%2C27.7192#map=16/56.5411/27.7190&layers=P",
+    "Details": "POLICIJA/LUDZAS 2. VIDUSSKOLA. Ielas sākums no Latgales ielas līdz Blaumaņas ielai.",
+    "Latitude": "56.5395",
+    "Longitude": "27.7192"
+  },
+  {
+    "StreetName": [ "Odu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/odu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5470%2C27.7315",
+    "Details": "Ielas sākums no Kr. Barona ielas līdz BANOŅEJAS. Tālāk paliek vienvirziena ceļs, lai sākt brāukt no pirmā numura uz paagstinājumu jābrauc pretējā virzienā.",
+    "Latitude": "56.547",
+    "Longitude": "27.7315"
+  },
+  {
+    "StreetName": [ "L. Paegles iela", "Leona Paegles iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/paegles.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54283%2C27.71833%3B56.53719%2C27.69317#map=15/56.5419/27.7061&layers=P",
+    "Details": "Virziens RĒZEKNE. Aiz apļa pa kreisi. Mājas numuru izvietošanas kartība - haotiska.",
+    "Latitude": "56.53719",
+    "Longitude": "27.69317"
+  },
+  {
+    "StreetName": [ "Parku iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/parku.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54692%2C27.71475#map=16/56.5449/27.7169&layers=P",
+    "Details": "Ielas sākums aiz azartspēļu zāles \"Džokers\", No A. Upīša ielas",
+    "Latitude": "56.54692",
+    "Longitude": "27.71475"
+  },
+  {
+    "StreetName": [ "Peldu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/peldu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54536%2C27.70992#map=17/56.54470/27.71419&layers=P",
+    "Details": "Ielas sākums no Parku ielas pie veikala \"MAXIMA\"(lielā) līdz Stroda ielai(mazā ezera pludmale \"Radziņš\").",
+    "Latitude": "56.54536",
+    "Longitude": "27.70992"
+  },
+  {
+    "StreetName": [ "Pļavu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/plavu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5566%2C27.7221",
+    "Details": "Virziens KĀRSAVA. No Tālavijas ielas pa kreisi(aiz Dunakļu ielas).",
+    "Latitude": "56.5566",
+    "Longitude": "27.7221"
+  },
+  {
+    "StreetName": [ "Pureņu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/purenu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5356%2C27.7252#map=16/56.5392/27.7220&layers=P",
+    "Details": "",
+    "Latitude": "56.5356",
+    "Longitude": "27.7252"
+  },
+  {
+    "StreetName": [ "Puškina iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/puskina.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54009%2C27.72286",
+    "Details": "Netālu pie POLICIJAS. ",
+    "Latitude": "56.54009",
+    "Longitude": "27.72286"
+  },
+  {
+    "StreetName": [ "Raiņa iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/raina.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5440%2C27.7187#map=18/56.54345/27.71888&layers=P",
+    "Details": "Ielas sākums no Tālavijas ielas pie veikala \"Husqvarna\" līdz Dagdas ielas",
+    "Latitude": "56.544",
+    "Longitude": "27.7187"
+  },
+  {
+    "StreetName": [ "Rekaševa iela", "Rekašova iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/rekasova.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54429%2C27.72295#map=18/56.54357/27.72084&layers=P",
+    "Details": "Ielas sākums no Mazā Ezerkrasta ielas līdz Raiņas ielai(pie pilsētas parka).",
+    "Latitude": "56.54429",
+    "Longitude": "27.72295"
+  },
+  {
+    "StreetName": [ "Rūpniecības iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/rupniecibas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5428%2C27.7037",
+    "Details": "\"ARIOLS\"",
+    "Latitude": "56.5428",
+    "Longitude": "27.7037"
+  },
+  {
+    "StreetName": [ "Saules iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/saules.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5374%2C27.7278#map=16/56.5401/27.7233&layers=P",
+    "Details": "Saules iela ir arī MARTIŠOS. Šitais maršrūts priekš LUDZAS",
+    "Latitude": "56.5374",
+    "Longitude": "27.7278"
+  },
+  {
+    "StreetName": [ "Skolas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/skolas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54286%2C27.71901#map=19/56.54286/27.71901&layers=P",
+    "Details": "Ielas sākums no Mazā Ezerkrasta ielas līdz Jelgavas ielai.",
+    "Latitude": "56.54286",
+    "Longitude": "27.71901"
+  },
+  {
+    "StreetName": [ "Smilšu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/smilsu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_bike&route=56.54287%2C27.71848%3B56.55251%2C27.72626#map=15/56.5477/27.7232&layers=P",
+    "Details": "Netālu no ĒRIKA MICKĀNA mājas. No Tālavijas ielas aiz tilta pa kreisi. Ceļs kalnā.",
+    "Latitude": "56.55251",
+    "Longitude": "27.72626"
+  },
+  {
+    "StreetName": [ "J. Soikāna iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/soikana.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_bike&route=56.5429%2C27.7185%3B56.5508%2C27.7242",
+    "Details": "Netālu pie ĒRIKA MICKĀNA mājas. Ielas sākums no Kuļņeva ielas līdz MAKAŠĀNU dačās sākumam. (UZMANĪGI!) J. Soikana ielai ir arī blakus ceļš.",
+    "Latitude": "56.5508",
+    "Longitude": "27.7242"
+  },
+  {
+    "StreetName": [ "Sporta iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/sporta.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54061%2C27.72490#map=16/56.5412/27.7219&layers=P",
+    "Details": "Ielas sākupm no Stacijas šķērsielas līdz P. Miglinīka ielai(stadions \"VARPA\" pie pilsētas parka)",
+    "Latitude": "56.54061",
+    "Longitude": "27.7249"
+  },
+  {
+    "StreetName": [ "Stacijas iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/stacijas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54411%2C27.72045",
+    "Details": "Ielas sākums no Mazā Ezerkrasta ielas līdz dzelzceļa stacijai",
+    "Latitude": "56.54411",
+    "Longitude": "27.72045"
+  },
+  {
+    "StreetName": [ "Stroda iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/stroda.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54166%2C27.71780#map=18/56.54223/27.71841&layers=P",
+    "Details": "Ielas sākums no Peldu ielas mazā ezera pludmale \"Radziņš\" līdz Blaumaņa ielai.",
+    "Latitude": "56.54166",
+    "Longitude": "27.7178"
+  },
+  {
+    "StreetName": [ "Tālavijs iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/talavijas.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54284%2C27.71848%3B56.54468%2C27.72709#map=17/56.54375/27.72293&layers=P",
+    "Details": "(UZMANĪGI!) Ielas sākums no Raiņa ielas pie veikala \"Husqvarna\". Tālavijas ielai ir arī blakus ceļš",
+    "Latitude": "56.54468",
+    "Longitude": "27.72709"
+  },
+  {
+    "StreetName": [ "Tirgus iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/tirgus.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54499%2C27.72029#map=17/56.54393/27.71961&layers=P",
+    "Details": "",
+    "Latitude": "56.54499",
+    "Longitude": "27.72029"
+  },
+  {
+    "StreetName": [ "Zaļā iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/zala.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5555%2C27.7225",
+    "Details": "Virziens KĀRSAVA. No Tālavijas ielas pa kreisi(aiz Dunakļu ielas UN pēc tam Niedru ielas galā).",
+    "Latitude": "56.5555",
+    "Longitude": "27.7225"
+  },
+  {
+    "StreetName": [ "Ziedu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/ziedu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5385%2C27.7238",
+    "Details": "Netālu no POLICIJAS",
+    "Latitude": "56.5385",
+    "Longitude": "27.7238"
+  },
+  {
+    "StreetName": [ "Lauku šķērsiela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/lauku_skersiela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.55486%2C27.72608#map=15/56.5489/27.7229&layers=P",
+    "Details": "Virziens KĀRSAVA. No Tālavijas ielas pa kreisi.(bijušais Ludzas gaļas kombināts)",
+    "Latitude": "56.55486",
+    "Longitude": "27.72608"
+  },
+  {
+    "StreetName": [ "Dārzu šķērsiela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/darzu_skersiela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54783%2C27.71705#map=16/56.5454/27.7180&layers=P",
+    "Details": "Ielas sākums no Skolas ielas līdz A. Upīša ielai(pie maza ezera).",
+    "Latitude": "56.54783",
+    "Longitude": "27.71705"
+  },
+  {
+    "StreetName": [ "Ezera šķērsiela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/ezera_skersiela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54280%2C27.71850%3B56.54760%2C27.72570#map=16/56.5452/27.7218&layers=P",
+    "Details": "Iela pie baznicas laukuma. Kafeinīca \"KRISTĪNE\".",
+    "Latitude": "56.5476",
+    "Longitude": "27.7257"
+  },
+  {
+    "StreetName": [ "Krāslavas šķērsiela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/kraslavas_skersiela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54282%2C27.71850%3B56.53101%2C27.69580#map=15/56.5388/27.7074&layers=P",
+    "Details": "RUNTORTA. (UZMANĪBU!) Mājas numuru izvietošanas kartība - haotiska.",
+    "Latitude": "56.53101",
+    "Longitude": "27.6958"
+  },
+  {
+    "StreetName": [ "Latgales šķērsiela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/latgales_skersiela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5316%2C27.7363",
+    "Details": "Virziens MARTIŠI. Pirms apļa.",
+    "Latitude": "56.5316",
+    "Longitude": "27.7363"
+  },
+  {
+    "StreetName": [ "Lielā Ezerkrasta iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/liela_ezerkrasta.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5482%2C27.7319",
+    "Details": "",
+    "Latitude": "56.5482",
+    "Longitude": "27.7319"
+  },
+  {
+    "StreetName": [ "Mazā Ezerkrasta iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/maza_ezerkrasta.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5486%2C27.7170",
+    "Details": "",
+    "Latitude": "56.5486",
+    "Longitude": "27.717"
+  },
+  {
+    "StreetName": [ "Stacijas šķērsiela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/stacijas_skersiela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5339%2C27.7216",
+    "Details": "Ielas sākums no dzelzceļa stacijs līdz Sporta ielai.",
+    "Latitude": "56.5339",
+    "Longitude": "27.7216"
+  },
+  {
+    "StreetName": [ "Strādnieku šķērsiela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/stradnieku_skersiela.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.54725%2C27.72657#map=16/56.5451/27.7222&layers=P",
+    "Details": "Ielas sākums no Tālavijas ielas līdz Kr. Barona ielai.",
+    "Latitude": "56.54725",
+    "Longitude": "27.72657"
+  },
+  {
+    "StreetName": [ "Bērzu iela" ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/berzu.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.54287%2C27.71848%3B56.52633%2C27.74075#map=14/56.5354/27.7301&layers=P",
+    "Details": "Bērzu iela ir arī MAKAŠĀNOS(Dačas). Šitais maršrūts priekš MARTIŠIEM",
+    "Latitude": "56.52633",
+    "Longitude": "27.74075"
+  },
+  {
+    "StreetName": [
+      "Papardes",
+      "Aizsargu",
+      "Zvirgzdenes",
+      "Meldru",
+      "Zvirgzdenes šķērsiela",
+      "Elejas",
+      "Piekalna",
+      "Dainas",
+      "Ciruļu",
+      "Amolina",
+      "Daliju",
+      "Pīpeņu",
+      "Darziņu",
+      "Jasmīnu",
+      "Kameņu",
+      "Puķu",
+      "Ogu",
+      "Abeļu",
+      "Zemnieku",
+      "Jaunlejas",
+      "Sūkna",
+      "Lejas",
+      "Lejas šķērsiela",
+      "Zvejnieku",
+      "Torņa",
+      "Ķirsu šķērsiela",
+      "Ķirsu",
+      "Avotu",
+      "Astras",
+      "Piekrastes",
+      "Kauguru",
+      "Neļķu",
+      "Rozu",
+      "Makašānu,",
+      "Pilādžu,",
+      "Aveņu",
+      "Kalna"
+    ],
+    "Image": "https://github.com/VasilijBoichuk/FindAndRescueImages/blob/main/makasani.png",
+    "Route": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=56.5429%2C27.7185%3B56.5491%2C27.6970#map=16/56.5451/27.7080&layers=P",
+    "Details": "MAKAŠĀNI(Dačas) aiz Govju tilta",
+    "Latitude": "56.5491",
+    "Longitude": "27.697"
+  }
+]
