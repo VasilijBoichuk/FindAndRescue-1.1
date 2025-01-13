@@ -2,12 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:FindAndRescue.Model"
-             xmlns:converters="clr-namespace:FindAndRescue.Converters"
              x:Class="FindAndRescue.MainPage">
-
-    <ContentPage.Resources>
-        <converters:StreetNameConverter x:Key="StreetNameConverter" />
-    </ContentPage.Resources>
 
     <CollectionView>
         <CollectionView.ItemsSource>

@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Net.Http;
+using System.Reflection;
 
 namespace FindAndRescue
 {
@@ -9,22 +10,6 @@ namespace FindAndRescue
         {
             InitializeComponent();
 
-            var assembly = Assembly.GetExecutingAssembly();
-            var resourceName = "Resources.Raw.RescueSource.json";
-
-            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
-            {
-                if (stream != null)
-                {
-                    using (StreamReader reader = new StreamReader(stream))
-                    {
-                        var json = reader.ReadToEnd();
-                        Rescues = JsonSerializer.Deserialize<List<Rescue>>(json);
-                    }
-                }
-
-                //rescueCollectionView.ItemsSource = Rescues;
-            }
         }
 
     }
