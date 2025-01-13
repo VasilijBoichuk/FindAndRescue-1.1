@@ -6,7 +6,48 @@
              x:DataType="viewmodel:RescueViewModel"
              Title="{Binding Title}"
              x:Class="FindAndRescue.MainPage">
-    
-    
+
+    <Grid ColumnDefinitions="*,*"
+          ColumnSpacing="5"
+          RowDefinitions="*,Auto"
+          RowSpacing="0">
+
+        <CollectionView BackgroundColor="Transparent"
+                        Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Rescues}"
+                        SelectionMode="None">
+            
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Rescue">
+                    <Grid Padding="10">
+                        <Border HeightRequest="125"
+                                Padding="0">
+                            <Grid Padding="0"
+                                  ColumnDefinitions="125, *">
+                                <Image Aspect="AspectFill"
+                                       WidthRequest="125"
+                                       Source="{Binding Image}"
+                                       HeightRequest="125"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Download"
+                Command="{Binding GetRescuesCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Margin="8"/>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"/>
+
+    </Grid>
 
 </ContentPage>
