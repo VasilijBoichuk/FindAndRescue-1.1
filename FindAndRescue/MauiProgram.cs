@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using FindAndRescue.Services;
+using Microsoft.Extensions.Logging;
 
 namespace FindAndRescue
 {
@@ -13,6 +14,10 @@ namespace FindAndRescue
                 {
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+
+            builder.Services.AddSingleton<RescueService>();
+            builder.Services.AddSingleton<RescueViewModel>();
+            builder.Services.AddSingleton<MainPage>();
 
 #if DEBUG
     		builder.Logging.AddDebug();

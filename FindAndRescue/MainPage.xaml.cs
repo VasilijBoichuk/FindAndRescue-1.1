@@ -1,15 +1,11 @@
-﻿using System.Net.Http;
-using System.Reflection;
-
-namespace FindAndRescue
+﻿namespace FindAndRescue
 {
     public partial class MainPage : ContentPage
     {
-        public List<Rescue> Rescues { get; set; }
-        public MainPage()
+        public MainPage(RescueViewModel viewModel)
         {
             InitializeComponent();
-
+            BindingContext = viewModel;
         }
 
     }

@@ -2,41 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:FindAndRescue.Model"
+             xmlns:viewmodel="clr-namespace:FindAndRescue.ViewModel"
+             x:DataType="viewmodel:RescueViewModel"
+             Title="{Binding Title}"
              x:Class="FindAndRescue.MainPage">
-
-    <CollectionView>
-        <CollectionView.ItemsSource>
-            <x:Array Type="{x:Type model:Rescue}">
-               <model:Rescue
-                    Image="https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/baboon.jpg"
-                    />
-                <model:Rescue
-                    Image="https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/capuchin.jpg"
-                    />
-                <model:Rescue
-                    Image="https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/douc.jpg"
-                    />
-            </x:Array>
-        </CollectionView.ItemsSource>
-        <CollectionView.ItemTemplate>
-            <DataTemplate x:DataType="model:Rescue">
-                <HorizontalStackLayout Padding="10">
-                    <Image
-                        Aspect="AspectFill"
-                        HeightRequest="100"
-                        Source="{Binding Image}"
-                        WidthRequest="100" />
-                    <Label VerticalOptions="Center" TextColor="Gray">
-                        <Label.Text>
-                            <MultiBinding StringFormat="{}{0} | {1}">
-                                <Binding Path="Name" />
-                                <Binding Path="Location" />
-                            </MultiBinding>
-                        </Label.Text>
-                    </Label>
-                </HorizontalStackLayout>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
     
+    
+
 </ContentPage>
