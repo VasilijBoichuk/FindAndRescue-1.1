@@ -4,6 +4,7 @@
              xmlns:model="clr-namespace:FindAndRescue.Model"
              xmlns:viewmodel="clr-namespace:FindAndRescue.ViewModel"
              x:DataType="viewmodel:RescueViewModel"
+			 xmlns:converter="clr-namespace:FindAndRescue.Converter"
              Title="{Binding Title}"
              x:Class="FindAndRescue.MainPage">
 
@@ -28,6 +29,12 @@
                                        WidthRequest="150"
                                        Source="{Binding Image}"
                                        HeightRequest="150"/>
+
+								<VerticalStackLayout Grid.Column="1"
+													 Padding="10"
+													 VerticalOptions="Center">
+									<Label Text="{Binding StreetName, Converter={StaticResource ListToStringConverter}}" />
+								</VerticalStackLayout>
                             </Grid>
                         </Border>
                     </Grid>
