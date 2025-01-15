@@ -25,9 +25,9 @@
                             <Grid Padding="0"
                                   ColumnDefinitions="125, *">
                                 <Image Aspect="AspectFill"
-                                       WidthRequest="125"
+                                       WidthRequest="150"
                                        Source="{Binding Image}"
-                                       HeightRequest="125"/>
+                                       HeightRequest="150"/>
                             </Grid>
                         </Border>
                     </Grid>
