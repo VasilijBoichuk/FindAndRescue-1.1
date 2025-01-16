@@ -17,8 +17,9 @@ namespace FindAndRescue
 
             builder.Services.AddSingleton<RescueService>();
             builder.Services.AddSingleton<RescueViewModel>();
+            builder.Services.AddTransient<RescueDetailsViewModel>();
             builder.Services.AddSingleton<MainPage>();
-
+            builder.Services.AddTransient<DetailsPage>();
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif

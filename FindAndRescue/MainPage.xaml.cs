@@ -8,5 +8,17 @@
             BindingContext = viewModel;
 		}
 
-	}
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            // Check if the command can be executed
+            if (BindingContext is RescueViewModel viewModel && !viewModel.IsBusy)
+            {
+                // Execute the GetRescuesAsync method
+                await viewModel.GetRescuesAsync();
+            }
+        }
+
+    }
 }

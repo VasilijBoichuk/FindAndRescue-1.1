@@ -21,20 +21,32 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Rescue">
                     <Grid Padding="10">
-                        <Border HeightRequest="125"
-                                Padding="0">
+                        <Border HeightRequest="130"
+                                Padding="5">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                      Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RescueViewModel}}, Path=GoToImageCommand}"/>
+                            </Border.GestureRecognizers>
                             <Grid Padding="0"
-                                  ColumnDefinitions="125, *">
-                                <Image Aspect="AspectFill"
+                                  ColumnDefinitions="330, *">
+                                <!--<Image Aspect="AspectFill"
                                        WidthRequest="150"
                                        Source="{Binding Image}"
-                                       HeightRequest="150"/>
+                                       HeightRequest="150"/>-->
 
-								<VerticalStackLayout Grid.Column="1"
-													 Padding="10"
+                                <VerticalStackLayout Grid.Column="0"
+													 Padding="5"
 													 VerticalOptions="Center">
-									<Label Text="{Binding StreetName, Converter={StaticResource ListToStringConverter}}" />
-								</VerticalStackLayout>
+                                    <Label Text="{Binding StreetName, Converter={StaticResource ListToStringConverter}}"
+                                           TextColor="LightBlue" 
+                                           FontSize="20"
+                                           FontAttributes="Bold,Italic"/>
+                                    <Label
+                                        Text="{Binding Details}"
+                                        FontAttributes="Italic"
+                                        FontSize="15">
+                                    </Label>
+                                </VerticalStackLayout>
                             </Grid>
                         </Border>
                     </Grid>
@@ -42,18 +54,18 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Button Text="Download"
+        <!--<Button Text="Download"
                 Command="{Binding GetRescuesCommand}"
                 IsEnabled="{Binding IsNotBusy}"
                 Grid.Row="1"
-                Margin="8"/>
+                Margin="8"/>-->
 
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
+        <!--<ActivityIndicator IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
                            HorizontalOptions="FillAndExpand"
                            VerticalOptions="CenterAndExpand"
                            Grid.RowSpan="2"
-                           Grid.ColumnSpan="2"/>
+                           Grid.ColumnSpan="2"/>-->
 
     </Grid>
 

@@ -1,5 +1,4 @@
 ﻿using FindAndRescue.Services;
-
 namespace FindAndRescue.ViewModel
 {
     public partial class RescueViewModel : BaseViewModel
@@ -16,7 +15,19 @@ namespace FindAndRescue.ViewModel
 
         [ICommand]
 
-        async Task GetRescuesAsync()
+        async Task GoToImageAsync(Rescue rescue)
+        {
+            if (rescue == null)
+                return;
+
+            await Shell.Current.GoToAsync($"{nameof(DetailsPage)}", true, new Dictionary<string, object>
+            {
+                {"Rescue", rescue}
+            });
+        }
+        [ICommand]
+
+        public async Task GetRescuesAsync()
         {
             if (IsBusy)
                 return;
