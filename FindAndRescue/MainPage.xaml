@@ -4,8 +4,10 @@
              xmlns:model="clr-namespace:FindAndRescue.Model"
              xmlns:viewmodel="clr-namespace:FindAndRescue.ViewModel"
              x:DataType="viewmodel:RescueViewModel"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
 			 xmlns:converter="clr-namespace:FindAndRescue.Converter"
              Title="{Binding Title}"
+             ios:Page.UseSafeArea="True"
              x:Class="FindAndRescue.MainPage">
 
     <Grid ColumnDefinitions="*,*"
