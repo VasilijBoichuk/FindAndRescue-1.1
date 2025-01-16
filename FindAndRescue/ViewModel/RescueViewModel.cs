@@ -1,14 +1,15 @@
 ﻿using FindAndRescue.Services;
+using Microsoft.Extensions.Logging;
+
 namespace FindAndRescue.ViewModel
 {
     public partial class RescueViewModel : BaseViewModel
     {
-        RescueService rescueService;
+        private readonly RescueService rescueService;
+        private readonly IConnectivity connectivity;
+        private readonly IGeolocation geolocation;
 
         public ObservableCollection<Rescue> Rescues { get; } = new();
-
-        IConnectivity connectivity;
-        IGeolocation geolocation;
 
         public RescueViewModel(RescueService rescueService, IConnectivity connectivity, IGeolocation geolocation)
         {
@@ -18,11 +19,8 @@ namespace FindAndRescue.ViewModel
             this.geolocation = geolocation;
         }
 
-        
-
         [ICommand]
-
-        async Task GoToDetailsPageAsync(Rescue rescue)
+        public async Task GoToDetailsPageAsync(Rescue rescue)
         {
             if (rescue == null)
                 return;
@@ -32,8 +30,8 @@ namespace FindAndRescue.ViewModel
                 {"Rescue", rescue}
             });
         }
-        [ICommand]
 
+        [ICommand]
         public async Task GetRescuesAsync()
         {
             if (IsBusy)
@@ -41,26 +39,26 @@ namespace FindAndRescue.ViewModel
 
             try
             {
-                if(connectivity.NetworkAccess != NetworkAccess.Internet)
+                if (connectivity.NetworkAccess != NetworkAccess.Internet)
                 {
-                    await Shell.Current.DisplayAlert("Internet Error Message!",
-                    $"No Internet.", "OK");
+                    await Shell.Current.DisplayAlert("Internet Error", "No Internet connection.", "OK");
                     return;
                 }
+
                 IsBusy = true;
+
                 var rescues = await rescueService.GetRescues();
 
-                if (Rescues.Count != 0)
-                    Rescues.Clear();
-
+                Rescues.Clear();
                 foreach (var rescue in rescues)
+                {
                     Rescues.Add(rescue);
+                }
             }
             catch (Exception ex)
             {
                 Debug.WriteLine(ex);
-                await Shell.Current.DisplayAlert("ERROR!",
-                    $"Not able to get streets data: {ex.Message}", "OK");
+                await Shell.Current.DisplayAlert("ERROR!", $"Unable to fetch street data: {ex.Message}", "OK");
             }
             finally
             {

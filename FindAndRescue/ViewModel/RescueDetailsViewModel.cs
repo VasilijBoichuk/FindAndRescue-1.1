@@ -1,37 +1,40 @@
-﻿namespace FindAndRescue.ViewModel;
+﻿using FindAndRescue.Services;
+using Microsoft.Extensions.Logging;
 
-[QueryProperty("Rescue", "Rescue")]
-public partial class RescueDetailsViewModel : BaseViewModel
+namespace FindAndRescue.ViewModel
 {
-
-    IMap map;
-    public RescueDetailsViewModel(IMap map)
+    [QueryProperty("Rescue", "Rescue")]
+    public partial class RescueDetailsViewModel : BaseViewModel
     {
-        this.map = map;
-    }
+        private readonly IMap map;
 
-    [ObservableProperty]
-    Rescue rescue;
-
-    [ICommand]
-
-    async Task OpenMapAsync()
-    {
-        try
+        public RescueDetailsViewModel(IMap map)
         {
-            await map.OpenAsync(Rescue.Latitude, Rescue.Longitude,
-                new MapLaunchOptions
+            this.map = map;
+        }
+
+        [ObservableProperty]
+        Rescue rescue;
+
+        [ICommand]
+        public async Task OpenMapAsync()
+        {
+            try
+            {
+                if (rescue == null)
+                    return;
+
+                await map.OpenAsync(rescue.Latitude, rescue.Longitude, new MapLaunchOptions
                 {
-                    Name = string.Join(", ", Rescue.StreetName),
+                    Name = string.Join(", ", rescue.StreetName),
                     NavigationMode = NavigationMode.None
                 });
-        }
-        catch (Exception ex)
-        {
-            Debug.WriteLine(ex);
-            await Shell.Current.DisplayAlert("ERROR!",
-                $"Cant open map: {ex.Message}", "OK");
-            return;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                await Shell.Current.DisplayAlert("ERROR!", $"Unable to open map: {ex.Message}", "OK");
+            }
         }
     }
 }
