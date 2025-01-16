@@ -22,7 +22,7 @@ public partial class RescueDetailsViewModel : BaseViewModel
             await map.OpenAsync(Rescue.Latitude, Rescue.Longitude,
                 new MapLaunchOptions
                 {
-                    Name = Rescue.Route,
+                    Name = string.Join(", ", Rescue.StreetName),
                     NavigationMode = NavigationMode.None
                 });
         }
