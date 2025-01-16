@@ -7,15 +7,22 @@ namespace FindAndRescue.ViewModel
 
         public ObservableCollection<Rescue> Rescues { get; } = new();
 
-        public RescueViewModel(RescueService rescueService)
+        IConnectivity connectivity;
+        IGeolocation geolocation;
+
+        public RescueViewModel(RescueService rescueService, IConnectivity connectivity, IGeolocation geolocation)
         {
             Title = "Find and Rescue";
             this.rescueService = rescueService;
+            this.connectivity = connectivity;
+            this.geolocation = geolocation;
         }
+
+        
 
         [ICommand]
 
-        async Task GoToImageAsync(Rescue rescue)
+        async Task GoToDetailsPageAsync(Rescue rescue)
         {
             if (rescue == null)
                 return;
@@ -34,6 +41,12 @@ namespace FindAndRescue.ViewModel
 
             try
             {
+                if(connectivity.NetworkAccess != NetworkAccess.Internet)
+                {
+                    await Shell.Current.DisplayAlert("Internet Error Message!",
+                    $"No Internet.", "OK");
+                    return;
+                }
                 IsBusy = true;
                 var rescues = await rescueService.GetRescues();
 

@@ -25,15 +25,10 @@
                                 Padding="5">
                             <Border.GestureRecognizers>
                                 <TapGestureRecognizer CommandParameter="{Binding .}"
-                                                      Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RescueViewModel}}, Path=GoToImageCommand}"/>
+                                                      Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RescueViewModel}}, Path=GoToDetailsPageCommand}"/>
                             </Border.GestureRecognizers>
                             <Grid Padding="0"
                                   ColumnDefinitions="330, *">
-                                <!--<Image Aspect="AspectFill"
-                                       WidthRequest="150"
-                                       Source="{Binding Image}"
-                                       HeightRequest="150"/>-->
-
                                 <VerticalStackLayout Grid.Column="0"
 													 Padding="5"
 													 VerticalOptions="Center">
