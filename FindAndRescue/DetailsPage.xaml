@@ -6,19 +6,73 @@
              x:DataType="viewmodel:RescueDetailsViewModel"
              Title="{Binding Rescue.StreetName, Converter={StaticResource ListToStringConverter}}">
 
-    <!--<Image Aspect="AspectFill"
+
+    <Grid RowDefinitions="Auto,Auto,*">
+
+        <Image Aspect="AspectFill"
+                       HeightRequest="380"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Source="{Binding Rescue.Image}"
+                       WidthRequest="380"/>
+        
+        <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
+            <Button Text="Navigācija" 
+                       Command="{Binding OpenMapCommand}"
+                       HorizontalOptions="Center" 
+                       WidthRequest="200" 
+                       Margin="8"/>
+        </VerticalStackLayout>
+    </Grid>
+    
+</ContentPage>
+
+<!--<ScrollView BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
+    <Grid RowDefinitions="Auto,Auto,*">
+        <BoxView
+               BackgroundColor="Transparent"
+               Grid.RowSpan="2"
+               HorizontalOptions="Fill"
+               VerticalOptions="Fill"/>
+
+        <Image Aspect="AspectFill"
+                       HeightRequest="300"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Source="{Binding Rescue.Image}"
+                       WidthRequest="300"/>
+
+        <Label Style="{StaticResource LargeLabel}" 
+                  Grid.Row="1"
+                  TextColor="White"
+                  FontAttributes="Bold"
+                  Text="{Binding Rescue.StreetName, Converter={StaticResource ListToStringConverter}}" 
+                  HorizontalOptions="Center"
+                  Margin="0,0,0,8"/>
+
+        <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
+            <Button Text="Navigācija" 
+                       Command="{Binding OpenMapCommand}"
+                       HorizontalOptions="Center" 
+                       WidthRequest="200" 
+                       Margin="8"
+                       Style="{StaticResource ButtonOutline}"/>
+        </VerticalStackLayout>
+    </Grid>
+</ScrollView>-->
+
+<!--<VerticalStackLayout>
+            <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        </VerticalStackLayout>-->
+<!--<Image Aspect="AspectFill"
            WidthRequest="300"
            Source="{Binding Rescue.Image}"
            HeightRequest="300"/>-->
-    <ScrollView>
-        <Grid RowDefinitions="Auto,Auto,*">
-            <BoxView
-                BackgroundColor="{StaticResource Primary}"
-                Grid.RowSpan="2"
-                HorizontalOptions="Fill"
-                VerticalOptions="Fill"/>
-
-            <!--<Border StrokeShape="RoundRectangle 80"
+    
+                <!--<Border StrokeShape="RoundRectangle 80"
                     Stroke="White"
                     StrokeThickness="6"
                     HeightRequest="172"
@@ -26,31 +80,3 @@
                     Margin="0,8,0,0"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"></Border>-->
-            <Image Aspect="AspectFill"
-                        HeightRequest="300"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        Source="{Binding Rescue.Image}"
-                        WidthRequest="300"/>
-            
-            
-
-            <Label Style="{StaticResource LargeLabel}" 
-                   Grid.Row="1"
-                   TextColor="White"
-                   FontAttributes="Bold"
-                   Text="{Binding Rescue.StreetName, Converter={StaticResource ListToStringConverter}}" 
-                   HorizontalOptions="Center"
-                   Margin="0,0,0,8"/>
-
-            <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
-                <Button Text="Navigācija" 
-                        Command="{Binding OpenMapCommand}"
-                        HorizontalOptions="Center" 
-                        WidthRequest="200" 
-                        Margin="8"
-                        Style="{StaticResource ButtonOutline}"/>
-            </VerticalStackLayout>
-        </Grid>
-    </ScrollView>
-</ContentPage>
